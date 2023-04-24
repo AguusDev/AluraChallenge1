@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Proyecto Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/Logo.png" alt="Logo">
+        </div>
+    </header>
+    <main class="page__container">
+        <div class="form__container">
+            <form>
+                <div class="input__container">
+                    <textarea maxlength="150" class="input__encrypting" id="input" placeholder="ingrese aqui su texto"></textarea>
+                </div>
+
+                
+                <div class="buttons__container">
+                    <button class="encriptar" >Encriptar</button>
+                    <button class="desencriptar">Desencriptar</button>
+                </div>
+            </form>
+            <div class="info__container">
+                <img class="img__info" src="img/importanteAzul.png" alt="">
+                <p>Solo letras minusculas y sin acentos</p>
+            </div>
+        </div>
+        <aside>
+            <div class="encrypting__container">
+                
+                <div class="no__encrypting">
+                    <img class="img__aside" src="./img/Muñeco.png" alt="Muñeco">
+                    <h3 class="title__noEncrypting">Ningún mensaje fue encontrado</h3>
+                    <p class="message__noEncrypting">ingresa el texto que deseas encriptar o desencriptar</p>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <div class="boton__cancelar">
+        <button class="cancel">Cancelar</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
